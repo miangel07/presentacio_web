@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display:flex;
+    margin: auto;   
+}
+div{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+img{
+    height: 250px;
+    width: 250px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
