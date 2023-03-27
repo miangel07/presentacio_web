@@ -1,17 +1,21 @@
 body{
     background-color: beige;
-
+    background: url(../img/Café-colombiano-sobre-la-mesa-con-paisaje-de-las-montañas-de-Colombia-768x397.jpg);
+    background-size: cover;
 }
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     display:flex;
     margin: auto;   
+    font-size: 40px;
 }
 div{
     justify-content: center;
     display: flex;
     margin: auto;
+    font-size: 20px;
+    color: beige;
 }
 img{
     height: 250px;
@@ -19,4 +23,34 @@ img{
     justify-content: center;
     display: flex;
     margin: auto;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: beige;
+    font-size: 20px;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 05px;
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    color: aqua;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    color: rgb(83, 219, 42);
+    font-size: 20px;
+
 }
