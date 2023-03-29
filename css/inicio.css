@@ -1,23 +1,4 @@
-body{
-    background-color: beige;
-    background: url(../img/Café-colombiano-sobre-la-mesa-con-paisaje-de-las-montañas-de-Colombia-768x397.jpg);
-    background-size: cover;
 
-}
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    display:flex;
-    margin: auto;   
-    font-size: 40px;
-}
-div{
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    font-size: 20px;
-    color: bisque;
-}
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
@@ -32,10 +13,129 @@ a:hover{
     color: aqua;
 }
 h2{
+    color: #161111;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
     display:flex;
     margin: auto;  
-    text-align: left; 
-    
+    text-align: center; 
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%) translateY(-50%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   text-decoration: none;
+   outline: none;
+   border: none;
+   text-transform: capitalize;
+}
+:root{
+    --verde: #0c443a;
+    --limon: #25d1b2;
+    --degradado:linear-gradient(90deg, var(--limon),var(--verde));
+}
+
+*section{
+    background: var(--limon);
+    color: white;
+}
+html{
+    font-size: 62.4%;
+    overflow: hidden;
+}
+body{
+    background: white;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-size: 3rem;
+    color: var(--verde);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header.logo span{
+    color: var(--limon);
+}
+header .navbar a{
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    color: var(--verde);
+}
+header .navbar a:hover{
+    color: var(--limon);
+}
+header input{
+    display: none;
+}
+header label{
+    font-size: 3rem;
+    color: var(--verde);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 1rem 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    header .navbar a{
+        display: block;
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+    } 
+    header input:checked ~ label::before{
+        content: '\f00d';
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 49%;
+    }
 }

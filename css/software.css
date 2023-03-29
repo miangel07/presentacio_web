@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+
+}
+h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2? family= Poppins & display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: top ;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+

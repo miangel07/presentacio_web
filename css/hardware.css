@@ -1,0 +1,25 @@
+h1{
+    color: #161111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    margin: auto;  
+    text-align: center; 
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%) translateY(-1200%);
+}
+h2{
+    color: #161111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display:block;
+    margin: auto;  
+    text-align: center; 
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+}

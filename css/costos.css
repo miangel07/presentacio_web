@@ -1,0 +1,10 @@
+table,th,tr,td{
+    border: 1px solid #000000;
+    min-width: 87%;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+    border-collapse: collapse;
+    top: 95%;
+    left: 50%;
+}
