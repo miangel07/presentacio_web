@@ -1,4 +1,14 @@
-
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display:block;
+    margin: auto;   
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%) translateY(-.0rem);
+}
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
@@ -6,7 +16,7 @@ h1{
     margin: auto;   
     font-size: 20px;
     position: absolute;
-    top: 55%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%) translateY(-.0rem);
 }
@@ -18,14 +28,14 @@ div{
     color: rgb(0, 0, 0);
 }
 img{
-    height: 250px;
+    height: 350px;
     width: 250px;
     justify-content: center;
     display: flex;
     margin: auto;
     border-radius: 60px;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%) translateY(-120%);
     
@@ -39,7 +49,7 @@ p{
     color: rgb(5, 5, 5);
     font-size: 20px;    font-size: 2rem;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%) translateY(-30%);
     
@@ -65,7 +75,7 @@ h2{
     color: rgb(83, 219, 42);
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%) translateY(-150%);
 
