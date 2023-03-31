@@ -1,20 +1,11 @@
 
-a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-    margin: auto;
-    display: inline-block;
-    text-decoration: none;
-    padding: 0px 05px;
-    text-decoration: none;
-    color: beige;
-}
+
 a:hover{
     color: aqua;
 }
 h2{
     color: #161111;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     display:flex;
     margin: auto;  
